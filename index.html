@@ -3,76 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankit Singh | Python Automation Expert</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <title>Ankit Singh | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-        body { background-color: #0f172a; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; color: white; }
-        .container { display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%; max-width: 400px; }
-        .card { background: rgba(30, 41, 59, 0.9); backdrop-filter: blur(10px); padding: 30px; border-radius: 25px; text-align: center; border: 2px solid #fbbf24; width: 100%; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
-        .p-img { width: 110px; height: 110px; border-radius: 50%; border: 3px solid #fbbf24; object-fit: cover; margin-bottom: 15px; box-shadow: 0 0 15px #fbbf24; }
-        h2 { color: #fbbf24; font-size: 22px; margin-bottom: 5px; }
-        .role { color: #94a3b8; font-size: 14px; margin-bottom: 20px; }
-        .social-links { display: flex; justify-content: center; gap: 15px; margin-bottom: 20px; }
-        .social-links a { color: white; font-size: 22px; transition: 0.3s; text-decoration: none; }
-        .social-links a:hover { color: #fbbf24; transform: scale(1.2); }
-        .projects-title { align-self: flex-start; font-size: 18px; color: #fbbf24; font-weight: 600; margin-top: 10px; }
-        .project-card { background: #1e293b; width: 100%; padding: 15px; border-radius: 15px; border-left: 4px solid #fbbf24; display: flex; align-items: center; gap: 15px; transition: 0.3s; text-align: left; text-decoration: none; cursor: pointer; }
-        .project-card:hover { transform: translateX(10px); background: #2d3748; }
-        .project-icon { font-size: 24px; color: #fbbf24; }
-        .project-info h3 { font-size: 16px; margin-bottom: 3px; color: #fff; }
-        .project-info p { font-size: 12px; color: #94a3b8; }
-        .btn { background: #fbbf24; color: #0f172a; padding: 12px 25px; border-radius: 12px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 10px; width: 100%; text-align: center; transition: 0.3s; }
-        .btn:hover { background: #fff; transform: scale(1.02); }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f7f6; color: #333; }
+        header { background: #1a237e; color: white; padding: 60px 20px; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 5px solid white; margin-bottom: 15px; }
+        h1 { margin: 10px 0; font-size: 2.5em; }
+        .tagline { font-size: 1.2em; color: #c5cae9; }
+        
+        .section-title { border-bottom: 3px solid #1a237e; display: inline-block; margin-top: 40px; margin-bottom: 20px; padding-bottom: 5px; color: #1a237e; }
+        
+        /* Project Card Styling */
+        .project-card { 
+            background: white; border-radius: 15px; padding: 25px; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); border-left: 10px solid #1a237e;
+            margin-bottom: 30px;
+        }
+        .btn-view { 
+            background: #1a237e; color: white; padding: 12px 25px; 
+            text-decoration: none; border-radius: 8px; font-weight: bold; 
+            display: inline-block; margin-top: 15px; transition: 0.3s;
+        }
+        .btn-view:hover { background: #0d144d; transform: scale(1.05); }
+        
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; }
+        .skill-item { background: white; padding: 15px; border-radius: 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        footer { text-align: center; padding: 40px; color: #777; font-size: 14px; }
+        .contact-link { color: #25d366; text-decoration: none; font-weight: bold; font-size: 1.2em; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="card">
-            <img src="a.jpg" alt="Ankit Singh" class="p-img">
-            <h2>Ankit Singh</h2>
-            <p class="role">Python Automation Developer</p>
+<header>
+    <img src="https://via.placeholder.com/150" alt="Ankit Singh" class="profile-img">
+    <h1>ANKIT SINGH</h1>
+    <p class="tagline">Python Automation & AI Expert</p>
+</header>
 
-            <div class="social-links">
-                <a href="https://www.instagram.com/star_babuaan_01" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://wa.me/917859090061?text=Hi%20Ankit,%20I%20saw%20your%20portfolio." target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-            
-            <a href="https://wa.me/917859090061?text=Namaste%20Ankit,%20I%20need%20a%20News%20Automation%20System." class="btn">Message Me for Projects</a>
-        </div>
+<div class="container">
+    
+    <h2 class="section-title">About Me</h2>
+    <p>Main ek Python developer hoon jo automation aur AI tools banane mein expert hoon. Mera maqsad mushkil kaamon ko asaan aur automatic banana hai.</p>
 
-        <h3 class="projects-title"><i class="fas fa-star"></i> Featured Work</h3>
-
-        <div class="project-card">
-            <div class="project-icon"><i class="fas fa-newspaper"></i></div>
-            <div class="project-info">
-                <h3>AI News Reporter</h3>
-                <p>Generates automated PDF/HTML reports for local politicians and news pages.</p>
+    <h2 class="section-title">Featured Project</h2>
+    <div class="project-card">
+        <div style="display: flex; align-items: center; margin-bottom: 15px;">
+            <i class="fas fa-newspaper" style="font-size: 40px; color: #1a237e; margin-right: 20px;"></i>
+            <div>
+                <h3 style="margin:0;">ANKIT SINGH NEWS DESK</h3>
+                <span style="color: #d32f2f; font-weight: bold; font-size: 12px;">LIVE AI AUTOMATION</span>
             </div>
         </div>
-
-        <div class="project-card">
-            <div class="project-icon"><i class="fas fa-search-dollar"></i></div>
-            <div class="project-info">
-                <h3>Business Data Scraper</h3>
-                <p>Extracts business leads and market trends automatically.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-icon"><i class="fas fa-bolt"></i></div>
-            <div class="project-info">
-                <h3>WhatsApp Automation Bot</h3>
-                <p>Auto-send daily reports and updates to clients.</p>
-            </div>
-        </div>
+        <p>Ye ek advanced Python tool hai jo live Google News se data fetch karke <b>Top 10 Points</b> ki professional news report generate karta hai. Isme automatic HTML branding aur custom topic search ka option hai.</p>
+        
+        <a href="Ankit_10_Point_Report.html" target="_blank" class="btn-view">
+            <i class="fas fa-eye"></i> View Sample Report
+        </a>
     </div>
+
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-item"><i class="fab fa-python fa-2x"></i><br>Python</div>
+        <div class="skill-item"><i class="fas fa-code fa-2x"></i><br>Automation</div>
+        <div class="skill-item"><i class="fas fa-database fa-2x"></i><br>Web Scraping</div>
+        <div class="skill-item"><i class="fas fa-file-code fa-2x"></i><br>HTML/CSS</div>
+    </div>
+
+    <h2 class="section-title">Contact Me</h2>
+    <p>Work inquiry ke liye niche diye gaye button par click karein:</p>
+    <a href="https://wa.me/917859090061" class="contact-link">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+    </a>
+</div>
+
+<footer>
+    © 2026 Developed by Ankit Singh. All Rights Reserved.
+</footer>
 
 </body>
 </html>
